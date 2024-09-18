@@ -1,0 +1,167 @@
+
+    #ceu {
+        width: 1255px;
+        height: 577px;
+        background:linear-gradient(to bottom, #76dbf7 00%, #db9647 60%, #FFFFFF 100%);;
+    }
+    
+    #sol {
+        width: 190px;
+        height: 190px;
+        background-color: #fdaa24; /* Cor amarela */
+        border-radius: 50%; /* Arredonda as bordas para criar um círculo */
+        position: absolute; /* Posicionamento absoluto para sobrepor ao céu */
+        top: 52%; /* Posiciona o sol no topo */
+        left: 20%; /* Posiciona o sol à esquerda */
+        }
+    #areia {
+        width: 1255px;
+        height: 180px;
+        background-color: rgb(230, 204, 120);
+        position: absolute;
+        bottom: 0px;
+    }
+    #mar {
+        margin-left: 8px;
+        width: 253px;
+        height: 180px;
+        background-color: rgb(78, 168, 232);
+	    clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 0% 100%  );
+        position: absolute;
+        bottom: 0px;
+        animation: moveAndReturn 10s ease-in-out infinite; /* Aplicando a animação */
+    }
+
+    @keyframes moveAndReturn {
+        0% {
+            bottom: 0;
+            left: 00;
+        }
+        50% {
+            left: 14vw; /* Move o elemento para 50% da largura da viewport */
+        }
+        100% {
+            left: 0;
+        }
+    }
+    
+    #mar2 {
+        margin-left: 8px;
+        width: 251px;
+        height: 180px;
+        background-color: rgb(78, 168, 232);
+        clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 0% 100%  );
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    #guardasol {
+        position: relative;
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;}
+            #cabo {
+                position: absolute;
+                bottom: 107px;
+                left: 615px;
+                width: 10px;
+                height: 150px;
+                background: #8b4513;
+                transform: translateX(-50%);
+            }
+            #topo{
+            position: absolute;
+            top: 237px;
+            left: 490px;
+            width: 250px;
+            height: 100px;
+            border-radius: 100px 100px 0 0;
+            background: radial-gradient(circle at bottom, #fa3a3a, #ffffff);
+            clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+        }
+        #nuvem {
+            position: relative;
+            width: 200px;
+            height: 100px;
+            content: '';
+            position: absolute;
+            background: #fff;
+            border-radius: 50%;
+            width: 120px;
+            height: 90px;
+            top: 70px;
+            left: 560px;
+        }
+        #nuvem2 {
+            position: relative;
+            width: 200px;
+            height: 100px;
+            content: '';
+            position: absolute;
+            background: #fff;
+            border-radius: 50%;
+            width: 120px;
+            height: 90px;
+            top: 60px;
+            left: 640px;
+        }
+        #nuvem3 {
+            position: relative;
+            width: 200px;
+            height: 100px;
+            content: '';
+            position: absolute;
+            background: #fff;
+            border-radius: 50%;
+            width: 120px;
+            height: 90px;
+            top: 65px;
+            left: 720px;
+        }
+        #passaro {
+            margin-left: 8px;
+            width: 40px;
+            height: 25px;
+            background-color: rgb(0, 0, 0);
+            clip-path: polygon(0% 0%, 45% 0%, 100% 100%, 100% 100%  );
+            position: absolute;
+            top: 120px;
+            transform: translateY(50%);
+            animation: moveLinear 10s linear infinite;
+        }
+
+        @keyframes moveLinear {
+            0% {
+                transform: translateY(50%) translateX(0);
+            }
+            50% {
+                transform: translateY(50%) translateX(90vw); /* Move para o fim da tela */
+            }
+            100% {
+                transform: translateY(50%) translateX(0); /* Retorna ao ponto de início */
+            }
+        }
+        #passaro2 {
+            margin-left: 48px;
+            width: 40px;
+            height: 25px;
+            background-color: rgb(0, 0, 0);
+            clip-path: polygon(100% 0%, 45% 0%, 0% 100%, 100% 0%  );
+            position: absolute;
+            top: 120px;
+            transform: translateY(-50%);
+            animation: moveLinear 10s linear infinite;
+        }
+
+        @keyframes moveLinear {
+            0% {
+                transform: translateY(-50%) translateX(0);
+            }
+            50% {
+                transform: translateY(-50%) translateX(90vw); /* Move para o fim da tela */
+            }
+            100% {
+                transform: translateY(-50%) translateX(0); /* Retorna ao ponto de início */
+            }
+        }
