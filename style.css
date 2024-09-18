@@ -1,7 +1,7 @@
 
     #ceu {
-        width: 12550px;
-        height: 5770px;
+        width: 1255px;
+        height: 577px;
         background:linear-gradient(to bottom, #76dbf7 00%, #db9647 60%, #FFFFFF 100%);;
     }
     
@@ -15,16 +15,16 @@
         left: 20%; /* Posiciona o sol à esquerda */
         }
     #areia {
-        width: 12550px;
-        height: 1800px;
+        width: 1255px;
+        height: 180px;
         background-color: rgb(230, 204, 120);
         position: absolute;
         bottom: 0px;
     }
     #mar {
         margin-left: 8px;
-        width: 2530px;
-        height: 1800px;
+        width: 253px;
+        height: 180px;
         background-color: rgb(78, 168, 232);
 	    clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 0% 100%  );
         position: absolute;
@@ -47,8 +47,8 @@
     
     #mar2 {
         margin-left: 8px;
-        width: 2510px;
-        height: 1800px;
+        width: 251px;
+        height: 180px;
         background-color: rgb(78, 168, 232);
         clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 0% 100%  );
         position: absolute;
