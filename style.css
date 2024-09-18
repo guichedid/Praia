@@ -67,15 +67,7 @@
             width: 200px;
             height: 200px;
             margin: 50px auto;}
-            #cabo {
-                position: absolute;
-                bottom: 102px;
-                left: 615px;
-                width: 10px;
-                height: 150px;
-                background: #8b4513;
-                transform: translateX(-50%);
-            }
+            
             #topo{
             position: absolute;
             top: 237px;
@@ -86,6 +78,15 @@
             background: radial-gradient(circle at bottom, #fa3a3a, #ffffff);
             clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
         }
+        #cabo {
+                position: absolute;
+                bottom: 102px;
+                left: 615px;
+                width: 10px;
+                height: 150px;
+                background: #8b4513;
+                transform: translateX(-50%);
+            }
         #nuvem {
             position: relative;
             width: 200px;
