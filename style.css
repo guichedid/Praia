@@ -1,5 +1,14 @@
-
-    #ceu {
+#container {
+    width: 100%;
+    max-width: 1255px; /* Ajuste conforme necessário */
+    height: 100%;
+    max-height: 800px;
+    margin: 0 auto; /* Centraliza o contêiner */
+    padding: 0 20px; /* Adiciona um pouco de espaçamento interno */
+    box-sizing: border-box; /* Inclui padding e bordas na largura total */
+  }
+   
+   #ceu {
         width: 1255px;
         height: 577px;
         background:linear-gradient(to bottom, #76dbf7 00%, #db9647 60%, #FFFFFF 100%);;
